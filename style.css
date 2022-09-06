@@ -1,0 +1,23 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header { 
+    display: flex;
+    justify-content: space-around;
+    color: pink;
+    background-color: rgb(73, 37, 37);
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.center-text {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
