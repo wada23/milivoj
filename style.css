@@ -7,10 +7,12 @@
 .header { 
     display: flex;
     justify-content: space-around;
+    align-items: center;
     color: pink;
-    background-color: rgb(73, 37, 37);
-    height: 50px;
-    font-size: 30px;
+    background-color: #F7E7D4;
+    color: #FB8604;
+    height: 15vw;
+    font-size: 1.6vw;
     font-weight: bold;
 }
 
@@ -19,5 +21,10 @@
     justify-content: center;
     margin-left: 30px;
     margin-right: 30px;
+}
+
+.logo {
+    background-color: #FB8604;
+    color: white;
 }
 
