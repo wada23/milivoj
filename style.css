@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     margin: 0;
+    background-color: #F7E7D4;
 }
 
 .header { 
@@ -17,14 +18,28 @@
 }
 
 .center-text {
+    background-color: aqua;
     display: flex;
-    justify-content: center;
-    margin-left: 30px;
-    margin-right: 30px;
+    align-self: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.main-text { 
+    display: flex;
+    text-align: center;
+    background-color: blue;
+    height: 15em;
+    width: 30em;
 }
 
 .logo {
     background-color: #FB8604;
     color: white;
+}
+
+.h1 {
+    background-color: pink;
+    
 }
 
