@@ -4,8 +4,9 @@ body {
     flex-direction: column;
 }
 
-.main-header {
-    padding: 20px;
+.main-header, main{
+    padding: 60px;
+    background-color: pink;
 }
 
 .main-header {
@@ -24,7 +25,7 @@ body {
 
 .list-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-grow: 0.5;
     width: 30em;
     border: 3px solid #000000;
@@ -37,5 +38,21 @@ li {
     padding: 30px;
     text-align: center;
     font-size: 1.5em;
-
 }
+
+.list-container :hover {
+    text-decoration: underline;
+}
+
+main {
+    border: 3px solid #000000;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
