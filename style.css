@@ -4,8 +4,8 @@ body {
     flex-direction: column;
 }
 
-.main-header, main{
-    padding: 60px;
+.main-header, main, .image-list-container {
+    margin: 20px;
     background-color: pink;
 }
 
@@ -52,6 +52,38 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.image-list-container {
+    border: 3px solid #000000;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    display: flex;
+    min-width: 50%;
+    align-items: center;
+    background-color: blue;
+    height: 30em;
+}
+
+.box2 {
+    display: flex;
+    min-width: 50%;
+    flex-direction: column;
+    align-items: cenyter;
+    background-color: blueviolet;
+}
+
+.image-size {
+    max-width: 100%;
+    max-height: 100%;
+    
+    object-fit: cover;
+    vertical-align: bottom;
 }
 
 
