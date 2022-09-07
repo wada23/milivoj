@@ -5,7 +5,7 @@ body {
 }
 
 .main-header, main, .image-list-container {
-    margin: 20px;
+    padding: 20px;
     background-color: pink;
 }
 
@@ -14,10 +14,12 @@ body {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .logo-container {
     display: flex;
+    min-width: 50%;
     justify-content: center;
     align-items: stretch;
     border: 3px solid #000000;
@@ -26,7 +28,8 @@ body {
 .list-container {
     display: flex;
     justify-content: space-between;
-    flex-grow: 0.5;
+    flex-grow: 0.3;
+    min-width: 50%;
     width: 30em;
     border: 3px solid #000000;
     list-style: none;
@@ -46,7 +49,7 @@ li {
 
 main {
     border: 3px solid #000000;
-    font-size: 30px;
+    font-size: 1.6em;
     font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: column;
@@ -74,17 +77,18 @@ main {
     display: flex;
     min-width: 50%;
     flex-direction: column;
-    align-items: cenyter;
+    align-items: center;
     background-color: blueviolet;
 }
 
 .image-size {
     max-width: 100%;
     max-height: 100%;
-    
     object-fit: cover;
     vertical-align: bottom;
 }
+
+
 
 
 
