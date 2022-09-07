@@ -25,7 +25,7 @@ main, header, section, aside, footer {
     display: flex;
     justify-content: space-evenly;
     gap: 20px;  
-    font-size: 20px;  
+    font-size: 30px;
 }
 
 .header :hover {
